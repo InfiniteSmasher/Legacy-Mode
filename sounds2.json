@@ -1,0 +1,155 @@
+{
+  "resources": [
+    "sounds.webm",
+    "sounds.ogg",
+    "sounds.mp3"
+  ],
+  "spritemap": {
+    "ammo_Legacy": {
+      "start": 0,
+      "end": 0.3657142857142857,
+      "loop": false
+    },
+    "gun_cluck9mm_fire_Legacy": {
+      "start": 5,
+      "end": 5.809795918367346,
+      "loop": false
+    },
+    "gun_cluck9mm_insert_mag_Legacy": {
+      "start": 6,
+      "end": 6.75755102040816,
+      "loop": false
+    },
+    "gun_cluck9mm_remove_mag_Legacy": {
+      "start": 7,
+      "end": 7.47020408163265,
+      "loop": false
+    },
+    "gun_csg1_fire_Legacy": {
+      "start": 8,
+      "end": 9.671836734693876,
+      "loop": false
+    },
+    "gun_csg1_pull_action_Legacy": {
+      "start": 10,
+      "end": 10.391836734693875,
+      "loop": false
+    },
+    "gun_csg1_release_action_Legacy": {
+      "start": 11,
+      "end": 11.287346938775514,
+      "loop": false
+    },
+    "gun_dozenGauge_close_Legacy": {
+      "start": 12,
+      "end": 12.3134693877551,
+      "loop": false
+    },
+    "gun_dozenGauge_fire_Legacy": {
+      "start": 13,
+      "end": 14.35836734693878,
+      "loop": false
+    },
+    "gun_dozenGauge_load_Legacy": {
+      "start": 15,
+      "end": 15.47020408163266,
+      "loop": false
+    },
+    "gun_dozenGauge_open_Legacy": {
+      "start": 16,
+      "end": 16.47020408163266,
+      "loop": false
+    },
+    "gun_eggk47_dry_fire_Legacy": {
+      "start": 17,
+      "end": 17.6269387755102,
+      "loop": false
+    },
+    "gun_eggk47_fire_Legacy": {
+      "start": 18,
+      "end": 18.6008163265306,
+      "loop": false
+    },
+    "gun_eggk47_full_cycle_Legacy": {
+      "start": 19,
+      "end": 19.39183673469388,
+      "loop": false
+    },
+    "gun_eggk47_insert_mag_Legacy": {
+      "start": 20,
+      "end": 20.20897959183674,
+      "loop": false
+    },
+    "gun_eggk47_remove_mag_Legacy": {
+      "start": 21,
+      "end": 21.3395918367347,
+      "loop": false
+    },
+    "grenade_Legacy": {
+      "start": 22,
+      "end": 24.27265306122449,
+      "loop": false
+    },
+    "grenade_beep_Legacy": {
+      "start": 25,
+      "end": 25.15673469387755,
+      "loop": false
+    },
+    "grenade_pin_Legacy": {
+      "start": 26,
+      "end": 26.47020408163266,
+      "loop": false
+    },
+    "_Authored/Compiled By": "Infinite Smasher#4281",
+    "weapon_swap_Legacy": {
+      "start": 27,
+      "end": 27.06732426303853,
+      "loop": false
+    },
+    "gun_m24_bolt_close_Legacy": {
+      "start": 28,
+      "end": 28.44408163265305,
+      "loop": false
+    },
+    "gun_m24_bolt_open_Legacy": {
+      "start": 29,
+      "end": 29.39183673469387,
+      "loop": false
+    },
+    "gun_m24_fire_Legacy": {
+      "start": 30,
+      "end": 31.5,
+      "loop": false
+    },
+    "pickup_Legacy": {
+      "start": 32,
+      "end": 32.3998639455782,
+      "loop": false
+    },
+    "gun_rpegg_load_Legacy": {
+      "start": 36,
+      "end": 36.6530612244898,
+      "loop": false
+    },
+    "gun_rpegg_rocket_fly_Legacy": {
+      "start": 37.015,
+      "end": 39.8212244897959,
+      "loop": false
+    },
+    "gun_rpegg_rocket_hit_Legacy": {
+      "start": 40.025,
+      "end": 42.19428571428574,
+      "loop": false
+    },
+    "gun_smg_cycle_Legacy": {
+      "start": 43,
+      "end": 43.9142857142857,
+      "loop": false
+    },
+    "gun_smg_fire_Legacy": {
+      "start": 44,
+      "end": 44.4179591836735,
+      "loop": false
+    }
+  }
+}
