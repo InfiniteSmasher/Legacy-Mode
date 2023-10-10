@@ -1,7 +1,7 @@
 # Legacy Mode (Basic) | Shell Shockers
 ```js
 // ==UserScript==
-// @name         Legacy Mode (Basic) | Shell Shockers
+// @name         Legacy Mode | Shell Shockers
 // @version      3.0
 // @author       Infinite Smasher
 // @description  Go back in time with the old in-game sound effects (2018/2019) and legacy default gun skins!
