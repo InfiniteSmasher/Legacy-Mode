@@ -16,7 +16,7 @@
 })();
 ```
 
-# Legacy Mode (w/ SFX Toggle in Settings) | Shell Shockers
+# Legacy Mode (w/ SFX Settings Toggle) | Shell Shockers
 ```js
 // ==UserScript==
 // @name         Legacy Mode (w/ SFX Toggle in Settings) | Shell Shockers
