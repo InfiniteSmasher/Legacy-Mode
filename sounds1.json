@@ -1,8 +1,8 @@
 {
   "resources": [
-    "sounds.webm",
-    "sounds.ogg",
-    "sounds.mp3"
+    "/sfx/sounds.webm",
+    "/sfx/sounds.ogg",
+    "/sfx/sounds.mp3"
   ],
   "spritemap": {
     "ammo": {
