@@ -20,7 +20,7 @@
 # Legacy Mode (w/ SFX Settings Toggle) | Shell Shockers
 ```js
 // ==UserScript==
-// @name         Legacy Mode (w/ SFX Toggle in Settings) | Shell Shockers
+// @name         Legacy Mode (w/ SFX Settings Toggle) | Shell Shockers
 // @version      4.0
 // @author       Infinite Smasher
 // @description  Go back in time with a settings toggle for the old in-game sound effects (2018/2019) and legacy default gun skins!
