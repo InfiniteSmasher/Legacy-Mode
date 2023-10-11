@@ -26,7 +26,7 @@
 // @description  Go back in time with a settings toggle for the old in-game sound effects (2018/2019) and legacy default gun skins!
 // @icon         https://raw.githubusercontent.com/InfiniteSmasher/Legacy-Mode/main/ico_egg.png
 // @match        *://shellshock.io/*
-// @run-at       document-end
+// @run-at       document-body
 // ==/UserScript==
 
 (function() {
