@@ -1,25 +1,14 @@
 let i = setInterval(() => {
     if(typeof(comp_settings) === "undefined") return;
     clearInterval(i);
+    let oldToggleFunc = comp_settings.methods.onSettingToggled;
     comp_settings.methods.onSettingToggled = (id, value) => {
-        Object.values(vueData.settingsUi.togglers).forEach(v => {
-            var toggler = v.find(t => { return t.id === id; });
-            if (toggler) toggler.value = value;
-        })
-    
-        if (id === 'autoDetail') {
-            vueApp.$refs.settings.showDetailSettings = !value;
-        }
-    
-        if (id === 'safeNames') {
-            extern.setSafeNames(value);
-        }
-    
         if (id === 'legacySFX') {
             window.switchSounds(value);
             localStore.setItem("legacySFXEnabled", value);
             BAWK.play("ammo");
         }
+        oldToggleFunc(id, value);
     };
 }, 250);
 
@@ -40,9 +29,9 @@ let interval = setInterval(() => {
         item.name = item.name.replace(" ", " Legacy ");
         item.item_data.meshName += "_Legacy";
     });
+    let oldLocFunc = vueApp.setLocData;
     vueApp.setLocData = (languageCode, newLocData) => {
-        this.currentLanguageCode = getStoredString('languageSelected', null) ? localStore.getItem('languageSelected') : languageCode;
-        this.loc = newLocData;
+        oldLocFunc(languageCode, newLocData);
         this.loc.p_settings_legacy_sfx = "Legacy Sound Effects";
     }
 }, 250);
