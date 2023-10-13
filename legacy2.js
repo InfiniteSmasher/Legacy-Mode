@@ -32,6 +32,6 @@ let interval = setInterval(() => {
     let oldLocFunc = vueApp.setLocData;
     vueApp.setLocData = (languageCode, newLocData) => {
         oldLocFunc(languageCode, newLocData);
-        this.loc.p_settings_legacy_sfx = "Legacy Sound Effects";
+        vueData.loc.p_settings_legacy_sfx = "Legacy Sound Effects";
     }
 }, 250);
