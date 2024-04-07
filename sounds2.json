@@ -15,6 +15,11 @@
       "end": 5.809795918367346,
       "loop": false
     },
+    "gun_cluck9mm_Legacy_fire": {
+      "start": 5,
+      "end": 5.809795918367346,
+      "loop": false
+    },
     "gun_cluck9mm_insert_mag_Legacy": {
       "start": 6,
       "end": 6.75755102040816,
@@ -26,6 +31,11 @@
       "loop": false
     },
     "gun_csg1_fire_Legacy": {
+      "start": 8,
+      "end": 9.671836734693876,
+      "loop": false
+    },
+    "gun_csg1_Legacy_fire": {
       "start": 8,
       "end": 9.671836734693876,
       "loop": false
@@ -50,6 +60,11 @@
       "end": 14.35836734693878,
       "loop": false
     },
+    "gun_dozenGauge_Legacy_fire": {
+      "start": 13,
+      "end": 14.35836734693878,
+      "loop": false
+    },
     "gun_dozenGauge_load_Legacy": {
       "start": 15,
       "end": 15.47020408163266,
@@ -66,6 +81,11 @@
       "loop": false
     },
     "gun_eggk47_fire_Legacy": {
+      "start": 18,
+      "end": 18.6008163265306,
+      "loop": false
+    },
+    "gun_eggk47_Legacy_fire": {
       "start": 18,
       "end": 18.6008163265306,
       "loop": false
@@ -147,6 +167,11 @@
       "loop": false
     },
     "gun_smg_fire_Legacy": {
+      "start": 44,
+      "end": 44.4179591836735,
+      "loop": false
+    },
+    "gun_smg_Legacy_fire": {
       "start": 44,
       "end": 44.4179591836735,
       "loop": false
